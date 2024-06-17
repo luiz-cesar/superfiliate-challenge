@@ -1,6 +1,8 @@
+// This doesn't seem to be used anywhere in this file.
 import { buildEndpointRegister } from "../../common/requests";
 import { Item, calculateCartController } from "../cart";
 
+// PRO: Many tests with different scenarios. Awesome stuff!
 describe("#calculateCartController", () => {
   const { originalHandler: handler } = calculateCartController;
 
